@@ -5,9 +5,6 @@
 /mavenHomeManager.xml
 
 /*
-*
-
-/fancymenu_data
 !/config
 !/config-overrides
 !/kubejs
@@ -19,4 +16,6 @@
 !/.github
 !/ldlib
 !/mods
+mods/.index
 
+/fancymenu_data
