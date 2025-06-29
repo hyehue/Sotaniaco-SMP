@@ -1,0 +1,31 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/admin.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/nautical_admin_rank.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/rank.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                ""
+            ]
+        }
+    ]
+}
