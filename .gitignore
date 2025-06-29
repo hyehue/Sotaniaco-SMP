@@ -19,5 +19,6 @@
 !/manifest.json
 !/.github
 !/ldlib
+!/mods
 /mods/.index
 /mods/.connector

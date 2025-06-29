@@ -202,12 +202,12 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, empty;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: none;
+	right-sidebar-subpanels: lookup-history 3;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to

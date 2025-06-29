@@ -1,10 +1,14 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "minecraft:crafting_table",
+      "amount": 64
+    },
     "item:tconstruct:excavator{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:osmium\",\"tconstruct:osmium\",\"tconstruct:osmium\",\"tconstruct:osmium\"],tic_modifiers:[{level:4,name:\"tconstruct:dense\"},{level:2,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:pathing\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":4.2000003f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":2250.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":1.2149999f},tic_volatile_data:{abilities:1,upgrades:2}}",
     "item:tconstruct:sledge_hammer{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:invar\",\"tconstruct:invar\",\"tconstruct:invar\",\"tconstruct:invar\"],tic_modifiers:[{level:4,name:\"tconstruct:invariant\"},{level:2,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":8.53875f,\"tconstruct:attack_speed\":0.78749996f,\"tconstruct:durability\":2520.0f,\"tconstruct:harvest_tier\":\"minecraft:diamond\",\"tconstruct:mining_speed\":1.9799999f},tic_volatile_data:{abilities:1,upgrades:2}}",
     "item:minecraft:flint",
-    "item:minecraft:crafting_table",
     {
       "type": "item",
       "id": "thermal:iron_coin",
