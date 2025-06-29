@@ -5,10 +5,13 @@
 /mavenHomeManager.xml
 
 /*
+*
 
 !/config
 !/config-overrides
 !/kubejs
+!/config/fancymenu
+!/config/drippyloadingscreen
 !/defaultconfigs
 !/resourcepacks/
 !/.gitignore
@@ -18,3 +21,4 @@
 !/ldlib
 /mods/.index
 /mods/.connector
+
