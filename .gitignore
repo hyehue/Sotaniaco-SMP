@@ -23,8 +23,8 @@ mods/.index
 
 
 
-/fancymenu_data
-/config/blockswap/known_states
+fancymenu_data
+config/blockswap/known_states
 config/fml.toml
 config/jei/world/local/*
 config/sidebar_buttons.json
