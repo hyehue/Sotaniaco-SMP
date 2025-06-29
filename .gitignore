@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+
+/*
+
+!/config
+!/config-overrides
+!/kubejs
+!/defaultconfigs
+!/resourcepacks/
+!/.gitignore
+!/.gitattributes
+!/manifest.json
+!/.github
+!/ldlib
+/mods/.index
+/mods/.connector
