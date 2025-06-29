@@ -104,6 +104,17 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "utilitix": {
+    "glue_information": true,
+    "experience_crystal": true,
+    "linked_repeater": true,
+    "crude_furnace": true,
+    "advanced_brewery": true
+  },
+  "mbd2": {
+    "recipe_logic_provider": true,
+    "multiblock_provider": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
@@ -123,5 +134,13 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
   }
 }
