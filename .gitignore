@@ -8,7 +8,6 @@
 *
 
 /fancymenu_data
-
 !/config
 !/config-overrides
 !/kubejs
@@ -20,5 +19,4 @@
 !/.github
 !/ldlib
 !/mods
-/mods/.index
-/mods/.connector
+
