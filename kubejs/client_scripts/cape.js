@@ -4,5 +4,6 @@ CapeJS.addCapes(event => {
     event.register("cdc5dab9-748c-326b-9f0e-591c371a2e36", "creeper_gold_smp");
     event.register("52ec7480-9757-39e2-b698-65629d820c9b", "creeper_gold_smp");
     event.register("df9345a0-5f55-36b7-bef3-d920b2ef860f", "creeper_gold_smp");
+    event.register("8225c1a0-b2b7-3eae-9d49-d6050f0de6ef", "creeper_gold_smp");
     event.register("0fddba54-4cd7-4be9-ac06-e3b5977b245e", "twitch_cape");
 });

@@ -384,11 +384,6 @@
     "modId": "fastsuite",
     "version": "5.1.0"
   },
-  "FastWorkbench-1.20.1-8.0.4.jar": {
-    "jarName": "FastWorkbench-1.20.1-8.0.4.jar",
-    "modId": "fastbench",
-    "version": "8.0.4"
-  },
   "ferritecore-6.0.1-forge.jar": {
     "jarName": "ferritecore-6.0.1-forge.jar",
     "modId": "ferritecore",
