@@ -5,6 +5,7 @@ JEIEvents.hideItems(Sotaniaco => {
     Sotaniaco.hide(/itemfilters/)
     Sotaniaco.hide(/itemfilters:.*/)
     Sotaniaco.hide(/incomplete/)
+    Sotaniaco.hide('twilightforest:uncrafting_table')
 
     // Item.getAll().forEach(item => {
     //     if (

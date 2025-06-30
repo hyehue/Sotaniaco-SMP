@@ -44,6 +44,7 @@ config/embeddium++.toml
 config/emi.css
 config\darkmodeeverywhereshaders.json
 config\darkmodeeverywhereshaders.toml
+config/worldedit
 config/ichunutil/themes
 config/everycomp-hazardous.properties
 config/powah.json5
