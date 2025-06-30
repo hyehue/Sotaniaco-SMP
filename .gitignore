@@ -48,3 +48,5 @@ config/worldedit
 config/ichunutil/themes
 config/everycomp-hazardous.properties
 config/powah.json5
+config/worldedit/worldedit.properties
+
