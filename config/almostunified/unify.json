@@ -4,7 +4,8 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
-    "powah"
+    "powah",
+    "thermal"
   ],
   "stoneStrata": [
     "stone",
@@ -88,8 +89,8 @@
   "blockTagInheritance": {},
   "ignoredTags": [],
   "ignoredItems": [
-    "minecraft:iron_ore",
-    "minecraft:deepslate_iron_ore"
+    "minecraft:deepslate_iron_ore",
+    "minecraft:iron_ore"
   ],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"

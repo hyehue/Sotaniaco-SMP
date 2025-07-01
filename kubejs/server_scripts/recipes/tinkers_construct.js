@@ -18,3 +18,7 @@ ServerEvents.recipes(event => {
 
 
 });
+
+ServerEvents.recipes(Sotaniaco => {
+  Sotaniaco.replaceInput({ id: 'tconstruct:tables/pattern' }, 'minecraft:stick', 'minecraft:paper')
+})

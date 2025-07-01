@@ -109,13 +109,13 @@
 [Control]
 	#Control of Fast Run
 	#Allowed Values: PressKey, Toggle, Auto
-	fast-run_control = "PressKey"
+	fast-run_control = "Auto"
 	#Control of Crawl
 	#Allowed Values: PressKey, Toggle
 	crawl_control = "PressKey"
 	#Control of Flipping
 	#Allowed Values: PressRightAndLeft, TapMovementAndJump, PressFlippingKey
-	flip_control = "TapMovementAndJump"
+	flip_control = "PressFlippingKey"
 	#Control of Horizontal Wall Run
 	#Allowed Values: PressKey, Auto
 	h-wall-run_control = "PressKey"
@@ -142,7 +142,7 @@
 	#Make HideInBlock need player sneaking
 	hideinblock_needs_sneaking = true
 	#enable players to do actions needing Fast-Running by sprint
-	substitute_sprint = false
+	substitute_sprint = true
 	#acceptable walll angle of wall jump : `0` means you exactly opposite to wall, `180` allow you to wall jump for all angle
 	#Range: 0 ~ 180
 	acceptable_angle_wall_jump = 110
@@ -197,7 +197,7 @@
 
 [Stamina]
 	#Allowed Values: Default, Hunger, Feathers, Paraglider, EpicFight
-	used_stamina = "Default"
+	used_stamina = "Hunger"
 	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
 	#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 	#Please check 'parcool-server.toml' in 'serverconfig' directory
@@ -229,9 +229,9 @@
 		#Range: 0 ~ 10000
 		stamina_consumption_of_Dodge = 80
 		#Range: 0 ~ 10000
-		stamina_consumption_of_FastRun = 2
+		stamina_consumption_of_FastRun = 0
 		#Range: 0 ~ 10000
-		stamina_consumption_of_FastSwim = 3
+		stamina_consumption_of_FastSwim = 0
 		#Range: 0 ~ 10000
 		stamina_consumption_of_Flipping = 80
 		#Range: 0 ~ 10000
