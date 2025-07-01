@@ -20,7 +20,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:ranks/rank.png",
+            "file": "minecraft:ranks/player.png",
             "ascent": 8,
             "height": 8,
             "chars": [
