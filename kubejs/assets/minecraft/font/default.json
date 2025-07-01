@@ -11,7 +11,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:ranks/nautical_admin_rank.png",
+            "file": "minecraft:ranks/mod.png",
             "ascent": 8,
             "height": 8,
             "chars": [
