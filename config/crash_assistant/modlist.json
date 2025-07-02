@@ -597,6 +597,11 @@
     "modId": "ldlib",
     "version": "1.0.40"
   },
+  "LegendaryTooltips-1.20.1-forge-1.4.5.jar": {
+    "jarName": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+    "modId": "legendarytooltips",
+    "version": "1.4.5"
+  },
   "LibX-1.20.1-5.0.14.jar": {
     "jarName": "LibX-1.20.1-5.0.14.jar",
     "modId": "libx",
@@ -696,11 +701,6 @@
     "jarName": "Nullscape_1.20.x_v1.2.8.jar",
     "modId": "nullscape",
     "version": "1.2.8"
-  },
-  "Obscure-Tooltips-2.2.jar": {
-    "jarName": "Obscure-Tooltips-2.2.jar",
-    "modId": "obscure_tooltips",
-    "version": "2.2"
   },
   "OctoLib-FORGE-0.5.0.1+1.20.1.jar": {
     "jarName": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
