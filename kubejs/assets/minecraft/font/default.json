@@ -26,6 +26,33 @@
             "chars": [
                 ""
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/1.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/2.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "╝"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/3.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "╜"
+            ]
         }
     ]
 }
