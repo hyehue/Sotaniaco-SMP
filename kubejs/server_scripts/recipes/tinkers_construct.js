@@ -20,5 +20,17 @@ ServerEvents.recipes(event => {
 });
 
 ServerEvents.recipes(Sotaniaco => {
+  Sotaniaco.remove({ id: 'tconstruct:smeltery/seared/grout' })
+  Sotaniaco.remove({ id: 'tconstruct:smeltery/seared/grout_multiple' })
+  Sotaniaco.shapeless(Item.of('tconstruct:grout', 2), 
+  [
+    '2x gtceu:small_brick_dust',
+    'gtceu:clay_dust',
+    '3x #forge:sand',
+    '3x minecraft:gravel'
+  ])
+
+
+
   Sotaniaco.replaceInput({ id: 'tconstruct:tables/pattern' }, 'minecraft:stick', 'minecraft:paper')
 })
