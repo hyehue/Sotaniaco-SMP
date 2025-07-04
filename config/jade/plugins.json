@@ -135,6 +135,9 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
   },
