@@ -92,3 +92,61 @@ const addOregenOverworld = function(event, featureName, blockName, heightType, h
         "step": "underground_ores"
     })
 }
+
+const addOregenNether = function(event, featureName, blockName, heightType, heightMin, heightMax, veinCount, veinSize, discardChanceOnAirExposure) {
+    featureName = featureName.split(":")
+    let namespace = featureName[0]
+    let identifier = featureName[1]
+
+    blockName = blockName.split(":")
+    let blockNamespace = blockName[0]
+    let blockIdentifier = blockName[1]
+
+    event.addJson(`${namespace}:worldgen/configured_feature/${identifier}`, {
+        "type": "minecraft:ore",
+        "config": {
+            "discard_chance_on_air_exposure": discardChanceOnAirExposure,
+            "size": veinSize,
+            "targets": [
+                {
+                    "state": {"Name": `${blockNamespace}:${blockIdentifier}`},
+                    "target": {"predicate_type": "minecraft:tag_match", "tag": "minecraft:base_stone_nether"}
+                }
+            ]
+        }
+    })
+    let minInclusive = {"absolute": heightMin}
+    let maxInclusive = {"absolute": heightMax}
+    // Usualmente no necesitas above_bottom o below_top en el Nether, pero si quieres soporte:
+    if (heightMin < -64) {
+        minInclusive = {"above_bottom": heightMin + 64}
+        maxInclusive = {"above_bottom": heightMax + 64}
+    } else if (heightMax > 320) {
+        minInclusive = {"below_top": -(heightMin - 320)}
+        maxInclusive = {"below_top": -(heightMax - 320)}
+    }
+
+    event.addJson(`${namespace}:worldgen/placed_feature/${identifier}`, {
+        "feature": `${namespace}:${identifier}`,
+        "placement": [
+            {"type": "minecraft:count", "count": veinCount},
+            {"type": "minecraft:in_square"},
+            {
+                "type": "minecraft:height_range",
+                "height": {
+                    "type": heightType,
+                    "min_inclusive": minInclusive,
+                    "max_inclusive": maxInclusive
+                }
+            },
+            {"type": "minecraft:biome"}
+        ]
+    })
+
+    event.addJson(`${namespace}:forge/biome_modifier/${identifier}`, {
+        "type": "forge:add_features",
+        "biomes": "#minecraft:is_nether",
+        "features": `${namespace}:${identifier}`,
+        "step": "underground_ores"
+    })
+}
