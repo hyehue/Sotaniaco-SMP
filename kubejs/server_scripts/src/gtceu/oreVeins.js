@@ -498,8 +498,182 @@ e.add('kubejs:overworld/salts', v => {
 //         .withBlock(GTMaterials.Aluminium, 3, -40, 10))
 //     });
     
+/*///////////////////////////*/
+/////////// Nether ////////////
+/*///////////////////////////*/
+
+// Sulfur
+    e.add('kubejs:nether/sulfur', v => {
+        v.weight(40);
+        v.clusterSize(30);
+        v.density(0.10);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(10, 40);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Sulfur).size(2))
+            .secondary(b => b.mat(GTMaterials.Pyrite).size(1))
+            .between(b => b.mat(GTMaterials.Sphalerite).size(1))
+            .sporadic(b => b.mat(GTMaterials.Sulfur))
+        );
+    });  
+
+// Tetrahedrite
+    e.add('kubejs:nether/tetrahedrite', v => {
+        v.weight(40);
+        v.clusterSize(32);
+        v.density(0.10);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(80, 120);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Tetrahedrite).size(4))
+            .secondary(b => b.mat(GTMaterials.Copper).size(2))
+            .between(b => b.mat(GTMaterials.Stibnite).size(1))
+            .sporadic(b => b.mat(GTMaterials.Copper))
+        );
+    });  
+
+// Certus Quartz
+    e.add('kubejs:nether/certus_quartz', v => {
+        v.weight(60);
+        v.clusterSize(32);
+        v.density(0.10);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(40, 120);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.CertusQuartz).size(2))
+            .secondary(b => b.mat(GTMaterials.Quartzite).size(3))
+            .between(b => b.mat(GTMaterials.Barite).size(1))
+            .sporadic(b => b.mat(GTMaterials.NetherQuartz))
+        );
+    });  
+
+// Redstone (Nether)
+    e.add('kubejs:nether/redstone', v => {
+        v.weight(40);
+        v.clusterSize(25);
+        v.density(0.20);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(5, 40);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Redstone).size(3))
+            .secondary(b => b.mat(GTMaterials.Ruby).size(1))
+            .between(b => b.mat(GTMaterials.Cinnabar).size(1))
+            .sporadic(b => b.mat(GTMaterials.Redstone))
+        );
+    });  
+
+// Manganese
+    e.add('kubejs:nether/manganese', v => {
+        v.weight(20);
+        v.clusterSize(25);
+        v.density(0.20);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(20, 30);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Grossular).size(3))
+            .secondary(b => b.mat(GTMaterials.Pyrolusite).size(1))
+            .between(b => b.mat(GTMaterials.Tantalite).size(1))
+            .sporadic(b => b.mat(GTMaterials.Grossular))
+        );
+    });  
     
+// Banded Iron
+    e.add('kubejs:nether/banded_iron', v => {
+        v.weight(20);
+        v.clusterSize(25);
+        v.density(0.20);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(20, 30);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Goethite).size(3))
+            .secondary(b => b.mat(GTMaterials.YellowLimonite).size(2))
+            .between(b => b.mat(GTMaterials.Hematite).size(2))
+            .sporadic(b => b.mat(GTMaterials.Gold))
+        );
+    });  
     
+// Beryllium
+    e.add('kubejs:nether/beryllium', v => {
+        v.weight(30);
+        v.clusterSize(25);
+        v.density(0.25);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(5, 30);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Beryllium).size(3))
+            .secondary(b => b.mat(GTMaterials.Emerald).size(2))
+            .between(b => b.mat(GTMaterials.Thorium).size(2))
+            .sporadic(b => b.mat(GTMaterials.Beryllium))
+        );
+    });  
+    
+// Monazite
+    e.add('kubejs:nether/monazite', v => {
+        v.weight(30);
+        v.clusterSize(20);
+        v.density(0.25);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(20, 40);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Bastnasite).size(3))
+            .secondary(b => b.mat(GTMaterials.Monazite).size(1))
+            .between(b => b.mat(GTMaterials.Neodymium).size(1))
+            .sporadic(b => b.mat(GTMaterials.Monazite))
+        );
+    });  
+    
+// Topaz
+    e.add('kubejs:nether/topaz', v => {
+        v.weight(30);
+        v.clusterSize(20);
+        v.density(0.25);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(80, 120);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.BlueTopaz).size(2))
+            .secondary(b => b.mat(GTMaterials.Topaz).size(1))
+            .between(b => b.mat(GTMaterials.Chalcocite).size(1))
+            .sporadic(b => b.mat(GTMaterials.Bornite))
+        );
+    });  
+    
+// Molybdenum
+    e.add('kubejs:nether/molybdenum', v => {
+        v.weight(5);
+        v.clusterSize(25);
+        v.density(0.25);
+        v.discardChanceOnAirExposure(0);
+        v.layer('netherrack');
+        v.dimensions("minecraft:the_nether");
+        v.heightRangeUniform(20, 50);
+        v.classicVeinGenerator(generator => generator
+            .primary(b => b.mat(GTMaterials.Wulfenite).size(3))
+            .secondary(b => b.mat(GTMaterials.Molybdenite).size(1))
+            .between(b => b.mat(GTMaterials.Molybdenum).size(1))
+            .sporadic(b => b.mat(GTMaterials.Powellite))
+        );
+    });  
+    
+
+
 
 })
 
